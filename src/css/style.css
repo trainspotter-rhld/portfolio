@@ -95,13 +95,31 @@ a , li {
       color: #00ff84;
   }
 
+  .display{
+      border-radius: 5px;
+      width: 90%;
+      height: auto;
+  }
+
   .card{
+    margin: 10px;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
       transition: 0.3s;
       border-radius: 5px;
       background-color: #5b5a5a;
-      padding: 10px;
-      margin: 10px;
-      margin-left: 100px;
-      margin-right: 100px;
+      transition: 0.3s;
+  }
+
+  .card:hover{
+      box-shadow: 0 10px 16px 0 rgb(0, 0, 0);
+      background-color: #000000;
+      color: #ffffff;
+  }
+
+  .container {
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #343434;
+    padding: 10px;
   }
