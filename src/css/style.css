@@ -37,6 +37,7 @@ a , li {
     margin: 0;
     padding: 0;
     background-color: #24252A;
+    padding-right: 8px;
   }
   header {
   position : -webkit-sticky;
@@ -65,4 +66,15 @@ a , li {
   .nav-links li {
       display: inline-block;
       padding: 0px 20px;
+  }
+
+  button{
+      background-color: #000000;
+      font-family: 'Quicksand';
+      color: #ffffff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
   }
