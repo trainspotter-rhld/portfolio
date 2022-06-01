@@ -10,7 +10,6 @@ body{
 .info {
   font-family: 'Quicksand', sans-serif;
   font-size: 1.5rem;
-  color: #fff;
   margin-top: 1rem;
 }	
 
@@ -20,8 +19,8 @@ p{
 
 body{
     font-family: 'Quicksand', sans-serif;
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #9c9c9c;
+    color: #000000;
 }
 
 
