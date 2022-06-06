@@ -104,7 +104,7 @@ a , li {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
       transition: 0.3s;
       border-radius: 5px;
-      background-color: #5b5a5a;
+      background-color: #858585;
       transition: 0.3s;
   }
 
@@ -116,12 +116,14 @@ a , li {
 
   .container {
     gap: 1rem;
+    background-color: #3f3f3f;
     width: auto;
     height: auto;
     border-radius: 5px;
     display: grid;
     grid-template-columns: auto auto;
     padding: 10px;
+    box-shadow: none  10px 10px #ffffff;	
   }
 
 .material-symbols-outlined {
@@ -149,4 +151,9 @@ a , li {
 .long{
   grid-column: span 2 / auto;
 }
+
+}
+
+.footer{
+  text-align: left;
 }
