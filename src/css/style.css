@@ -157,3 +157,12 @@ a , li {
 .footer{
   text-align: left;
 }
+
+img{
+ transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1) 0.1s;
+}
+
+img:hover{
+  transform: scale(1.1);
+  transform: rotate(10deg);
+}
